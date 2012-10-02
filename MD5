@@ -1,0 +1,12 @@
+0b54864fcb067c82fe4f870cf0c6f48a *DESCRIPTION
+9758db8f02bce6db5a7287b5a2de45c3 *NAMESPACE
+d98dd84c8d75b05e74b540155e835f2a *R/SvyNom-internal.R
+dcf459c82d52780e5266d8c6f7c238fc *R/svycox.calibrate.R
+96043c73cee87ee2f7a45c0e39f02d31 *R/svycox.nomogram.R
+4ebef4b750cf4bbcddf58c8f91f09375 *R/svycox.validate.R
+b21fd9f1683be4b949e52e2d308ba44a *data/noNA.RData
+6c98eb19cc5c380fddb6bf2eb8e9db30 *man/SvyNom-package.Rd
+b7c4a3fea8c7c3c56700a425556006a3 *man/noNA.Rd
+afcab581b1fb0a33d50187cefc6310f0 *man/svycox.calibrate.Rd
+714e55cce882f46ef05871499b32735c *man/svycox.nomogram.Rd
+2e58277f8dfdc469f02bc01175e90eda *man/svycox.validate.Rd
