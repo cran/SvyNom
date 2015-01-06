@@ -1,16 +1,15 @@
 Package: SvyNom
 Type: Package
 Title: Nomograms for Right-Censored Outcomes from Survey Designs
-Version: 1.0
-Date: 2012-10-02
+Version: 1.1
+Date: 2015-01-06
 Author: Mithat Gonen, Marinela Capanu
 Maintainer: Mithat Gonen <gonenm@mskcc.org>
-Description: Construction, internal validation and calibration of
-        nomograms with right-censored outcomes emanating from complex
-        survery designs
-Suggests: survival,rms,survey
+Description: Builds, evaluates and validates a nomogram with survey data and right-censored outcomes.
+Imports: survival,rms,Hmisc,survey
 License: GPL-2
 LazyLoad: yes
-Packaged: 2012-12-06 15:25:27 UTC; gonenm
+Packaged: 2015-02-24 13:52:02 UTC; capanum
+NeedsCompilation: no
 Repository: CRAN
-Date/Publication: 2012-12-07 07:51:35
+Date/Publication: 2015-02-24 15:30:01

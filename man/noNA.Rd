@@ -3,7 +3,7 @@
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{Gastric cancer case-control study
 }
-\description{Example dataset for the SvyNom package
+\description{Example dataset for the SvyNom package.
 }
 \usage{data(noNA)
 }

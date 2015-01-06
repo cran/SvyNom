@@ -5,7 +5,7 @@
   model
 }
 \description{Checks the calibration of a nomogram for a survey-weighted
-  Cox model
+  Cox model.
 }
 \usage{svycox.calibrate(.nom, .timept = .nom$pred.at, .ngroup = 5)
 }
@@ -26,8 +26,11 @@
 \author{
 Mithat Gonen, Marinela Capanu
 }
+\references{
+Marinela Capanu, Mithat Gonen (2015). Building a Nomogram for Survey-Weighted Cox Models Using R. 
+Journal of Statistical Software, Code Snippets, 64(1), 1-17. URL http://www.jstatsoft.org/v64/c01/.
+}
 \examples{
-library(survival)
 library(survey)
 library(rms)
 data(noNA)
@@ -36,7 +39,8 @@ options(datadist="dd")
 
 dstr2=svydesign(id=~1, strata=~group, prob=~inv_weight, fpc=~ssize, data=noNA)
 
-mynom=svycox.nomogram(.design=dstr2, .model=Surv(survival,surv_cens)~ECOG+liver_only+Alb+Hb+Age+Differentiation+Gt_1_m1site+lymph_only, .data=noNA, pred.at=24, fun.lab="Prob of 2 Yr OS")
+mynom=svycox.nomogram(.design=dstr2, .model=Surv(survival,surv_cens)~ECOG+liver_only+Alb+Hb+Age+
+Differentiation+Gt_1_m1site+lymph_only, .data=noNA, pred.at=24, fun.lab="Prob of 2 Yr OS")
 
 svycox.calibrate(mynom)
   }

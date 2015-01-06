@@ -1,1 +1,8 @@
+importFrom(survival,Surv)
+importFrom(rms,ols)
+importFrom(rms,nomogram)
+importFrom(Hmisc,rcorr.cens)
+importFrom(survey,svykm)
+importFrom(survey,svycoxph)
+importFrom(survey,svydesign)
 export(svycox.nomogram,svycox.validate,svycox.calibrate)
